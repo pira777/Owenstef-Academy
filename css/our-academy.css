@@ -1,0 +1,566 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+section{
+    margin-top: 90px;
+}
+.container{
+    width: 80%;
+    margin: 18px auto;
+
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500..900&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.container{
+    width: 90%;
+    margin: 12px auto;
+}
+
+section{
+    margin-bottom: 90px;
+}
+
+/* Hero Section */
+
+a{
+    text-decoration: none;
+}
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../templates/images/img6.png');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.hero-content{
+    margin-bottom: 150px;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h2{
+    font-size: 4vmin;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background-color: #E92A2A;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.hero-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.hero-content .btn{
+   padding: 14px 23px;
+   background-color: E92A2A;
+   border-radius: 30px;
+   color: #fff;
+}
+
+
+
+/* ===== Elite Section === */
+
+.img-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.img-single-box{
+    padding: 10px;
+}
+
+.img-single-box img:hover{
+    opacity: 0.5;
+}
+
+.images h1, .elites h1, .tour h1, .staff h2, .booking h1, .explore h1{
+    margin: 18px auto;
+    text-align: center;
+    /* font-size: 2.5em; */
+    /* text-transform: uppercase; */
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.tour-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tour-box h2{
+    padding: 4px;
+    text-transform: uppercase;
+}
+
+.tour-box-card{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 12px;
+    text-align: center;
+}
+
+
+.tour-box-card .btn{
+    margin: 2px auto;
+    width: 250px;
+}
+
+.tour-box-card .btn:hover{
+    /* background: rgb(233, 160, 160);
+    color:rgb(62, 25, 191); */
+   width: 280px;
+    transition: ease .3s;
+}
+
+
+
+.btn{
+    text-decoration: none;
+    padding: 12px 23px;
+    /* background: rgb(62, 25, 191); */
+    background: #E92A2A;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn:hover{
+    /* background: rgb(233, 160, 160);
+    color:rgb(62, 25, 191); */
+    padding: 12px 30px;
+    transition: ease .3s;
+}
+
+
+/* ===== Staff Section === */
+
+.staff{
+    /* background-color: #a9a9a9; */
+    background-color: #333;
+    color: #fff;
+    }
+    
+.staff-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    /* display: flex;
+    padding: 23px;
+    justify-content: space-around;
+    background-color: #a9a9a9; */
+}
+
+
+.staff-box img{
+width: 250px;
+height: 250px;
+border-radius: 50%;
+margin-right:auto ;
+margin-left:auto ;
+margin-right:auto ;
+margin-bottom:20px ;
+}
+
+.staff-box-1, .staff-box-2, .staff-box-3{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 18px;
+    
+}
+
+.staff-box .icons{
+    /* color: rgb(62, 25, 191); */
+    font-size: 23px;
+    padding: 4px;
+    transition: .4s;
+}
+
+.staff-box .icons1:hover{
+    
+    font-size: 30px;
+    padding: 8px;
+    transition: ease .3s;
+}
+.staff-box .icons2:hover{
+    
+    font-size: 30px;
+    padding: 8px;
+    transition: ease .3s;
+}
+
+.staff-box .icons3:hover{
+    
+    font-size: 30px;
+    padding: 8px;
+    transition: ease .3s;
+}
+.staff-box h4{
+    font-size: 0.75em;
+    text-align: center;
+}
+
+.staff-box p{
+    text-align: center;
+    line-height: 1.8em;
+    color: #fff;
+}
+
+/* ===== testimonies Section === */
+
+
+.testimonies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonies h1{
+    /* text-transform: uppercase; */
+    font-size: 1.5em;
+    font-weight: 900;
+    }
+
+.testimonies h1, .testimonies p{
+    text-align: center;
+    
+    }
+
+
+
+.testimonies .ts-img-container{
+overflow: hidden;
+border: 10px solid white;
+}
+
+.img-container{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+.testimonies .ts-img-container img{
+    width: 100%;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+/* ===== Booking Section === */
+
+.booking .booking-box{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.booking .booking-box h1, p{
+    padding: 2px;
+    margin: 0px auto 10px auto;
+    
+}
+
+.booking .booking-box h1, .e-library-box h1{
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+
+/* ===== E-Library | IT & Partners Section === */
+.e-library-box, .it-partners-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.e-library-box h1, p, {
+    padding: 2px;
+    margin: 0px auto 10px auto;
+    text-align: center;
+}
+
+.it-partners{
+    background-color: #333;
+    color: #fff;
+}
+.it-partners details{
+    text-align: center;
+    padding: 10px;
+}
+
+.explore .explore-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* ===== Enrollment form Section === */
+
+.form-box{
+    display:flex;
+    }
+
+.modal-container{
+    width: 100%;
+    height: 100%;
+    /* position: fixed; */
+    background-color: rgba(0, 70, 88, 0.8); 
+    opacity: 0;
+    pointer-events: none;
+    transition: all 500ms ease;
+}
+.modal-container:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.modal-container> div{
+    transform: translate(0px -50px);
+    transition: all 500ms ease;
+}
+
+.modal-container:target> div{
+    transform: translate(0px 0px);
+}
+
+
+.modal{
+    width: 80%;
+    height: 65%;
+    margin: auto;
+    position: absolute;
+    top: 8400px;
+    bottom: 100px;
+    right: 1000px;
+    left: 100px;
+    background-color: rgb(210, 160, 160);
+    box-shadow: 0px 0px 50px 5px #333;
+    border-radius: 6px;
+
+}
+.close{
+    color: #fff;
+    background-color: rgb(211, 6, 6);
+    position: absolute;
+    border: 2px solid rgb(210, 160, 160);
+    padding: 7px 9px 11px 9px;
+    text-decoration: none;
+    top: -20px;
+    right: -15px;
+    transition: background 500ms;
+}
+.close:hover{
+    background-color: #444;
+
+}
+
+.mobile{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 10px;
+}
+
+.form-label{
+    width: 23%;
+    float:left;
+    text-align: right;
+    padding: 2px;
+    margin-right: 2px;
+}
+
+input{
+    font-size: 120%;
+    color: #5a5854;
+    background-color: #f2f2f2;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 5px 5px 30px;
+    background-repeat: no-repeat;
+    background-position: 8px  9px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input:focus{
+    background-color: #fff;
+    border: 1px solid #b1e1e4;
+}
+
+input:hover{
+    background-color: #fff;
+    border: 1px solid #b1e1e4;
+}
+
+
+fieldset {
+    width: 100%;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: right;
+}
+legend{
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold                                                               ;
+}
+ 
+
+
+/* @media only screen and(max-width:760px) {
+    .elites-box{
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+        flex-wrap: wrap;
+            
+    }
+    
+    .elites-box-img{
+        display: block;
+               
+    }
+    .elites-box-img img{
+        width: 400px
+        display: block;
+    }
+    }
+    
+} */
+
+
+@media only screen and (max-width:760px) {
+
+    .img-box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .tour-box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.tour-box-card{
+    width: 100%
+}
+
+
+.tour-box-card h1, .tour-box-card p, .tour-box-card btn{
+    text-align: center;
+    width: 100%;
+}
+.tour-box-card img{
+   display: block;
+}
+
+.staff-box{
+    flex-direction: column;
+    /* justify-content: center; */
+    
+}
+
+.staff-box-1, .staff-box-2, .staff-box-3{
+    width: 100%;
+  }
+
+  .mobile{
+    display: block;
+}
+
+.modal{
+    width: 80%;
+    height: 160%;
+    margin: auto;
+    position: absolute;
+    top: 12600px;
+    bottom: 100px;
+    right: 2500px;
+    left: 80px;
+    background-color: rgb(210, 160, 160);
+    box-shadow: 0px 0px 50px 5px #333;
+    border-radius: 6px;
+
+}
+
+}
